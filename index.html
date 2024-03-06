@@ -15,16 +15,44 @@
         <div class="explicacion"><p class="explicacion-text">Este cuestionario está creado para poder prácticar Linux de una forma dinámica y entretenida. Se basa de dar explicaciones acerca de los comandos y después insertar algunas preguntas por sección para poder prácticar lo aprendido. Espero que aprendas mucho y que te diviertas :D</p></div>
         <ul class="contenido">
             <li class="seccion">
-                <button id="titulo-seccion">Manipulación de archivos</button>
+                <button id="titulo-seccion">Iniciación en Linux</button>
                 <div id="contenido-seccion" class="novisible">
-                    
+                        <div class="seccionAprendizaje">
+                            <h2 class="titulo-aprendizaje">Introducción a la terminal</h2>
+                            <p class="introduccion-text">En esta sección de aqui veremos lo que es la Shell de Linux y como sería la sintaxis a través de ella. En Linux, a pesar de contar con una interfaz gráfica, la mayoría de funciones debemos de hacerlas a través de la terminal (también conocida como Shell). Por lo que, para un principiante, iniciarse en el mundo de linux puede ser un poco tedioso. Pero antes de nada vamos a preguntarnos, ¿que es linux?</p>
+                            <h4 class="pregunta">¿Que es Linux?</h4>
+                            <p class="texto-pregunta">Linux es un sistema operativo libre de código abierto desarrollado a partir del antiguo sistema operativo UNIX. 
+                                Es usado ampliamente en la rama de ciberseguridad, pero se puede usar en muchas otras ramas como la astrofisica o como un ordenador personal. 
+                                Actualmente cuenta con muchas distribuciones, algunas de las mas famosas son: Ubuntu, Kali, Parrot, Mint, Xubuntu... <br> 
+                                En cualquier caso, dependiendo de nuestras necesidades necesitaremos una u otra distribución. 
+                                La diferencia entre distribuciones son la distribucion base de la que derivan. 
+                                Por ejemplo, Ubuntu, Parrot y Kali derivan de Debian, mientras que otras distribuciones Manjaro o BlackArch derivan de Arch. 
+                                Es importante saber con que distribucion base estamos trabajando ya que cada una puede tener un gestor de paquetes diferentes (un gestor de paquetes es la forma con la que se instalan distintas aplicaciones en un sistema operativo)
+                                
+                            </p>
+                        </div>
+                        <div class="formulario">
+                            <h2 class="formulario-text">Formulario</h2>
+                            <p>Es linux un sistema operativo libre?</p>
+                            <input type="text" class="input-form" placeholder="Respuesta..." id="input1"> 
+                            <p>De que sistema operativo deriva linux?</p>
+                            <input type="text" class="input-form" placeholder="Respuesta..." id="input2">
+                            <p>De que otra forma se le conoce a la Terminal?</p>
+                            <input type="text" class="input-form" placeholder="Respuesta..." id="input3">
+                            <p>Cual es la mascota de linux?</p>
+                            <input type="text" class="input-form" placeholder="Respuesta..." id="input4">
+                            <button id="comprobar">Comprobar</button>
+                            <br>
+                            <input type="text" readonly placeholder="Aciertos" id="aciertosInput">
+                            <br>
+                            <button id="mostrarRespuestas" class="novisible">Mostrar respuestas</button>
+                        </div>
                 </div>
             </li>
             <br>    
             <li class="seccion">
                 <button id="titulo-seccion2">Manipulación de directorios</button>
                 <div id="contenido-seccion2" class="novisible">
-                    
                 </div>
             </li>
             <br>
