@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Estilos relacionados con la cabezera de la página */
 .header{
     border-bottom: 1px solid black;
     height: 5vw;
@@ -14,11 +15,13 @@
     justify-content: center;
     align-items: center;
 }
+/* Estilos relacionados con el contenido de la página */
 .contenido-pagina{
     margin: 0 auto  ;
     width: 80%;
 
 }
+/* Estilos relacionados con el texto de la página */
 .explicacion{
     height: auto;
     margin: 0 auto;
@@ -31,6 +34,9 @@
 .contenido{
     list-style: none;
 }
+
+/* Sección 1 */
+
 #titulo-seccion{
     width: 100%;
     height: 2vw;
@@ -45,10 +51,41 @@
     cursor: pointer;
 }
 #contenido-seccion{
-    height: 500px;
-    border: 2px solid rgb(53, 53, 53);
-    box-sizing: border-box;
+    height: auto;
+}   
+.seccionAprendizaje{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
+.titulo-aprendizaje{
+    font-size: 1.5vw;
+    margin: 15px;
+}
+.introduccion-text{
+    font-size: 1vw;
+}
+.pregunta{
+    font-size: 1.2vw;
+    margin: 15px;
+}
+.texto-pregunta{
+    font-size: 1vw;
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-form{
+    margin: 7px;
+    width: 20vw;
+}
+   
+/* Sección 2 */
+
 #titulo-seccion2{
     width: 100%;
     height: 2vw;
@@ -62,10 +99,12 @@
     cursor: pointer;
 }
 #contenido-seccion2{
-    height: 500px;
-    border: 2px solid rgb(53, 53, 53);
-    box-sizing: border-box;
+    height: auto;
+
 }
+
+/* Sección 3 */
+
 #titulo-seccion3{
     width: 100%;
     height: 2vw;
@@ -79,10 +118,11 @@
     cursor: pointer;
 }
 #contenido-seccion3{
-    height: 500px;
-    border: 2px solid rgb(53, 53, 53);
-    box-sizing: border-box;
+    height: auto;
+
 }
+
+/* Sección 4 */
 
 #titulo-seccion4{
     width: 100%;
@@ -97,12 +137,13 @@
     cursor: pointer;
 }
 #contenido-seccion4{
-    height: 500px;
-    border: 2px solid rgb(53, 53, 53);
-    box-sizing: border-box;
-}
-.visible{
+    height: auto;
 
+}
+
+/* Clases Javascript */
+
+.visible{
     transition: 1s ease;
     display: block;
 }
